@@ -24,8 +24,13 @@
   &__logotype {
     font-size: 26px;
     font-weight: 400;
+    
+    &:hover span { color: $color-indigo; }
+    span {
+      font-weight: 600;
 
-    span { font-weight: 600; }
+      transition: color .3s ease-in-out;
+    }
   }
 
   .navigation {
@@ -41,9 +46,10 @@
     }
 
     &__link {
+      margin-bottom: 6px;
+
       font-size: 16px;
       font-weight: 500;
-      margin-bottom: 6px;
 
       &:hover::after { width: 100%; }
       &::after {
