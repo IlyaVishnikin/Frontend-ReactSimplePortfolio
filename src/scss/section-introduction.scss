@@ -8,6 +8,8 @@
 
 .section-introduction {
   margin-bottom: 70px;
+  padding-top: 182px;
+  padding-bottom: 248px;
 
   color: $color-white;
   background-color: $color-black;
@@ -20,7 +22,6 @@
   vertical-align: text-top;
 
   .main-container { padding: 0 270px; }
-  &__inner { padding: 182px 0 248px 0; }
   &__greeting {
     margin-bottom: 20px;
 
