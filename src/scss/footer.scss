@@ -1,0 +1,30 @@
+
+// ********************* //
+// *** FOOTER STYLES *** //
+// ********************* //
+
+@import '_variables.scss';
+
+
+.footer {
+  padding-top: 60px;
+  padding-bottom: 100px;
+
+  background-color: $color-black;
+
+  .main-container { max-width: 340px; }
+  .social-links-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 27px;
+  }
+
+  &__policy {
+
+    color: $color-white;
+    text-align: center;
+    letter-spacing: -0.5px;
+  }
+}
