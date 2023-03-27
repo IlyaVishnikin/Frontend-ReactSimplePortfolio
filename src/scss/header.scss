@@ -15,8 +15,10 @@
 
   &__inner {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    row-gap: 20px;
   }
 
   &__header {
@@ -30,7 +32,7 @@
 
     &__list {
       display: flex;
-      gap: 40px;
+      column-gap: 40px;
     }
 
     &__item {
@@ -58,5 +60,15 @@
         transition: width .4s ease-in-out;
       }
     }
+  }
+}
+
+// **************** //
+// *** ADAPTIVE *** //
+// **************** //
+
+@media (max-width: 523px) {
+  .header__inner {
+    justify-content: center;
   }
 }
