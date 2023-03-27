@@ -24,12 +24,12 @@
   &__logotype {
     font-size: 26px;
     font-weight: 400;
-    
-    &:hover span { color: $color-indigo; }
+
     span {
       font-weight: 600;
 
       transition: color .3s ease-in-out;
+      &:hover { color: $color-indigo; }
     }
   }
 
