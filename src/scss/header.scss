@@ -22,7 +22,7 @@
   }
 
   &__logotype {
-    font-size: 26px;
+    font-size: 1.625em;
     font-weight: 400;
 
     span {
@@ -48,7 +48,7 @@
     &__link {
       margin-bottom: 6px;
 
-      font-size: 16px;
+      font-size: 1em;
       font-weight: 500;
 
       &:hover::after { width: 100%; }
