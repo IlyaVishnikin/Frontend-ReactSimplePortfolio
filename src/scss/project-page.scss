@@ -1,0 +1,72 @@
+
+// *************************** //
+// *** PROJECT PAGE STYLES *** //
+// *************************** //
+
+@import '_variables.scss';
+
+
+.section-project {
+  padding: 70px 0;
+  text-align: center;
+
+  &__header {
+    margin-bottom: 40px;
+
+    font-size: 3.75em;
+    color: $color-indigo;  
+  }
+
+  &__image-wrapper {
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+
+    overflow: scroll;
+  }
+
+  &__image {
+    max-width: 770px;
+    display: inline-block;
+
+    border-radius: 10px;
+    filter: drop-shadow(0px 5px 35px rgba(0, 0, 0, 0.25));
+  }
+
+  .project-skills {
+    font-weight: 700;
+    font-size: 1.5em;
+
+    &__header { display: inline-block; }
+    &__header::after { content: ':'; }
+    &__item:not(:last-child)::after { content: ','; }
+    &__list {
+      display: inline-flex;
+      column-gap: 7px;
+    }
+  }
+}
+
+// **************** //
+// *** ADAPTIVE *** //
+// **************** //
+
+@media screen and (max-width: 931px) {
+  .section-project__header { font-size: 3em; }
+  .section-project__image { width: 600px; }
+  .section-project .project-skills { font-size: 1em; }
+}
+
+@media screen and (max-width: 744px) {
+  .section-project__image { width: 500px; }
+}
+
+@media screen and (max-width: 663px) {
+  .section-project .main-container { margin: 0; }
+  .section-project__header { font-size: 2em; }
+  .section-project__image { width: 400px; }
+}
+
+@media screen {
+  .section-project .main-container { padding: 0; }
+}
+
