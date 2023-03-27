@@ -1,0 +1,19 @@
+
+// ********************** //
+// *** GENERAL STYLES *** //
+// ********************** //
+
+@import '_fonts.scss';
+
+
+html,
+body {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+}
+
+.main-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
