@@ -1,0 +1,52 @@
+
+// ********************* //
+// *** SKILLS STYLES *** //
+// ********************* //
+
+@import '_variables.scss';
+
+
+.section-skills {
+  padding-top: 70px;
+  padding-bottom: 362px;
+
+  .main-container { max-width: 570px; }
+  &__header {
+    margin-bottom: 40px;
+
+    font-size: 3.75em;
+    color: $color-indigo;
+    text-align: center;
+  }
+
+  .frontend-skills { margin-bottom: 40px; }
+  .frontend-skills,
+  .backend-skills {
+    max-width: 571px;
+  }
+
+  .skills-header {
+    margin-bottom: 25px;
+
+    font-size: 2.5em;
+    color: $color-black;
+    text-align: center;
+    letter-spacing: -0.5;
+  }
+
+  .skills-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 5px;
+    row-gap: 10px;
+  }
+
+  .skills-item {
+    font-size: 1.125em;
+    color: $color-black;
+
+    strong { font-weight: 400; }
+    &:not(:last-child)::after { content: ','; }
+  }
+}
