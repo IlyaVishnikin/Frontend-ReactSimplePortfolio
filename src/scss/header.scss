@@ -18,7 +18,6 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    row-gap: 20px;
   }
 
   &__logotype {
@@ -73,8 +72,10 @@
 // *** ADAPTIVE *** //
 // **************** //
 
-@media (max-width: 523px) {
-  .header__inner {
-    justify-content: center;
+@media (max-width: 563px) {
+  .header {
+    .main-container { max-width: 300px; }
+    &__inner { display: block; text-align: center; }
+    .navigation__list { justify-content: space-between; }
   }
 }
