@@ -1,0 +1,23 @@
+
+// ************************* //
+// *** COMPONENTS STYLES *** //
+// ************************* //
+
+@import '_variables.scss';
+
+
+.button-link {
+  padding: 12px 28px;
+
+  color: $color-white;
+  border-radius: 5px;
+  background-color: $color-indigo;
+
+  transition: color .4s ease-in-out,
+              background-color .4s ease-in-out;
+
+  &:hover {
+    color: $color-indigo;
+    background-color: $color-white;
+  }
+}
