@@ -14,14 +14,7 @@
   letter-spacing: -0.5;
 
   .main-container { max-width: 570px; }
-  &__header {
-    margin-bottom: 40px;
-    font-size: 3.75em;
-
-    color: $color-indigo;
-    
-  }
-
+  &__header { margin-bottom: 40px; }
   .contacts-list {
     display: flex;
     flex-direction: column;

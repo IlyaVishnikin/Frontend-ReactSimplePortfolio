@@ -4,7 +4,7 @@
 // ********************** //
 
 @import '_fonts.scss';
-
+@import '_variables.scss';
 
 html,
 body {
@@ -19,4 +19,9 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.section-header {
+  font-size: 3.75em;
+  color: $color-indigo;
 }

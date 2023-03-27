@@ -11,14 +11,7 @@
   padding-bottom: 362px;
 
   .main-container { max-width: 570px; }
-  &__header {
-    margin-bottom: 40px;
-
-    font-size: 3.75em;
-    color: $color-indigo;
-    text-align: center;
-  }
-
+  &__header { margin-bottom: 40px; }
   .frontend-skills { margin-bottom: 40px; }
   .frontend-skills,
   .backend-skills {

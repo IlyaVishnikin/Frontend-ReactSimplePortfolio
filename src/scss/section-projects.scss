@@ -11,14 +11,7 @@
 
   letter-spacing: -0.5px;
 
-  &__header {
-    margin-bottom: 60px;
-    font-size: 3.75em;
-
-    text-align: center;
-    color: $color-indigo;
-  }
-
+  &__header { margin-bottom: 60px; }
   .projects-list {
     display: flex;
     flex-wrap: wrap;
